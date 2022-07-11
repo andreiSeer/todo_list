@@ -1,0 +1,35 @@
+
+:root {
+    --orange_higia: #FF6803FF;
+    --white: #fff;
+    --gray_higia: #ddd;
+    --disabled_higia: #eeeeeeff;
+    --black: #2a2b2b !important;
+    --red_higia: #be0000FF;
+    --blue_higia: #079DA6FF;
+}
+.task-title{
+    cursor: pointer;
+}
+.buttons-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.one-task-container {
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    background-color: #fff;
+    /* border: 2px solid #FF6803FF; */
+    justify-content: space-between;
+    align-items: center;
+}
+.remove-task-button,.see-task-detail-button{
+    border:none;
+    background-color: #fff;
+    font-size: 24px;
+    color: #FF6803FF;
+    cursor: pointer;
+}

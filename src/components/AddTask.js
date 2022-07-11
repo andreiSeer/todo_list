@@ -1,0 +1,34 @@
+import React, { useState } from "react";
+import './AddTask.css'
+import Button from "./Button";
+
+
+const AddTask = ({handleTaskEdition}) => {
+    const [inputData,setInputData] = useState("")
+
+    const handleInputChange = (e) => {
+        setInputData(e.target.value)
+    }
+    const handleTaskAddClick = () => {
+        if (inputData !== ""){
+            handleTaskEdition(inputData)
+            setInputData('')
+        }
+    }
+    return (
+        <>
+            <div className="add-task-container">
+                <input onChange={handleInputChange} value={inputData} id="task-tile" className="add-task-input" type="text"/>
+                <div className="add-task-button-container">
+                    <Button event_click={handleTaskAddClick}>Adicionar</Button>
+                </div>
+                
+            </div>
+        
+        </>
+    )
+
+}
+
+export default AddTask;
+

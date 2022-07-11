@@ -1,0 +1,28 @@
+.navbar {
+    color: #fff;
+    background-color: #2a2b2b;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;  
+    top: 0;  
+    width: 100%; 
+    font-family: 'Nunito', sans-serif !important;
+   
+}
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+}
+.higia-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 3.0em;
+    position: relative;
+    bottom: 5%;
+    background-color: #fff;
+}
