@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import './App.css'
-import AddTask from './components/AddTask';
-import Header from './components/Header';
-import Tasks from './components/Tasks'
-import TaskDetails from './components/TaskDetails'
+import '../styles/App.css'
+import AddTask from './AddTask';
+import Header from './Header';
+import Tasks from './Tasks'
+import TaskDetails from './TaskDetails'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
 import axios from 'axios'
