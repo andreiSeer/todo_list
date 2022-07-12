@@ -1,6 +1,6 @@
 import React from 'react';
-import './Navbar.css'
-import logo from './luffy_moto_g.jpeg'
+import '../styles/Navbar.css'
+import logo from '../assets/luffy_moto_g.jpeg'
 const Navbar = () => {
   // let message = "Hello World"
 

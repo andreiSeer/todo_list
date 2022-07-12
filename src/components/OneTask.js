@@ -1,5 +1,5 @@
 import React from "react";
-import './OneTask.css'
+import '../styles/OneTask.css'
 import {CgClose,CgInfo} from "react-icons/cg"
 import { useNavigate } from "react-router-dom";
 const OneTask = ({task, handleTaskClick, handleTaskDeletion}) => {
